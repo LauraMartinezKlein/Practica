@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evaluation", "evaluation\evaluation.csproj", "{2571A264-D862-405A-BB59-DD5B4BAE6C13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webEval", "evaluation\webEval.csproj", "{2571A264-D862-405A-BB59-DD5B4BAE6C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiEval", "apiEval\apiEval.csproj", "{4BABDAC0-89F2-488E-859F-1EADC489729F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2571A264-D862-405A-BB59-DD5B4BAE6C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2571A264-D862-405A-BB59-DD5B4BAE6C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2571A264-D862-405A-BB59-DD5B4BAE6C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BABDAC0-89F2-488E-859F-1EADC489729F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BABDAC0-89F2-488E-859F-1EADC489729F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BABDAC0-89F2-488E-859F-1EADC489729F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BABDAC0-89F2-488E-859F-1EADC489729F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
